@@ -1,6 +1,7 @@
-<<<<<<< HEAD
 
-var box = document.getElementById(id); //获取元素
+
+var box = document.querySelector('.box');
+console.log(box);
  	var disX = 0;
  	var disY = 0;
  	box.addEventListener('mousedown',down);//给box添加 mousedown事件处理函数
